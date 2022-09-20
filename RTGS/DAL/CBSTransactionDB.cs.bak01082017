@@ -1,0 +1,59 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Data.SqlClient;
+
+namespace RTGS
+{
+    public class CBSTransactionDB
+    {
+        public void ReverseCBSTransaction(Guid FormID)
+        {
+            SqlConnection myConnection = new SqlConnection(RTGS.AppVariables.ConStr);
+            SqlCommand myCommand = new SqlCommand("CBS_ReverseTransaction", myConnection);
+            myCommand.CommandType = CommandType.StoredProcedure;
+
+            SqlParameter parameterFormID = new SqlParameter("@FormID", SqlDbType.UniqueIdentifier, 50);
+            parameterFormID.Value = FormID;
+            myCommand.Parameters.Add(parameterFormID);
+
+            myConnection.Open();
+            myCommand.ExecuteNonQuery();
+            myConnection.Close();
+
+            myConnection.Dispose();
+            myCommand.Dispose();
+
+        }
+        public DataTable GetCBSTransaction(string ClearingType, string RoutingNo, string FormName)
+        {
+            SqlConnection myConnection = new SqlConnection(AppVariables.ConStr);
+            SqlDataAdapter myCommand = new SqlDataAdapter("CBS_GetTransaction", myConnection);
+            myCommand.SelectCommand.CommandType = CommandType.StoredProcedure;
+
+            SqlParameter parameterClearingType = new SqlParameter("@ClearingType", SqlDbType.VarChar, 10);
+            parameterClearingType.Value = ClearingType;
+            myCommand.SelectCommand.Parameters.Add(parameterClearingType);
+
+            SqlParameter parameterRoutingNo = new SqlParameter("@RoutingNo", SqlDbType.VarChar, 9);
+            parameterRoutingNo.Value = RoutingNo;
+            myCommand.SelectCommand.Parameters.Add(parameterRoutingNo);
+
+            SqlParameter parameterFormName = new SqlParameter("@FormName", SqlDbType.VarChar, 10);
+            parameterFormName.Value = FormName;
+            myCommand.SelectCommand.Parameters.Add(parameterFormName); 
+            
+            myConnection.Open();
+            DataTable dt = new DataTable();
+            myCommand.Fill(dt);
+
+            myConnection.Close();
+            myConnection.Dispose();
+            myCommand.Dispose();   
+
+            return dt;
+        }
+
+    }
+}
+
