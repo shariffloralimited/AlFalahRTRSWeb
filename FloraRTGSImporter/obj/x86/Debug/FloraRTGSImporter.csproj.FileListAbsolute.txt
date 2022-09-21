@@ -53,6 +53,3 @@ E:\RTGS\from office\New folder\Padma\FloraBP\ALLNEW\RTGSImporter.pdb
 E:\RTGS\from office\New folder\Padma\Update\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csprojResolveAssemblyReference.cache
 E:\RTGS\from office\New folder\Padma\Update\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.ProjectInstaller.resources
 E:\RTGS\from office\New folder\Padma\Update\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csproj.GenerateResource.Cache
-D:\Work\RTGS\FloraBP\ALLNEW\RTGSImporter.exe.config
-D:\Work\RTGS\alfalh\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
-D:\Work\RTGS\alfalh\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb

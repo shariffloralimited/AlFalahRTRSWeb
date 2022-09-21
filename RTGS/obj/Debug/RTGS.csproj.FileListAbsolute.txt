@@ -216,24 +216,3 @@ E:\RTGS\from office\New folder\alfalah\RTGS\bin\Microsoft.AspNet.FriendlyUrls.xm
 E:\RTGS\from office\New folder\alfalah\RTGS\bin\Newtonsoft.Json.xml
 E:\RTGS\from office\New folder\alfalah\RTGS\obj\Debug\RTGS.dll
 E:\RTGS\from office\New folder\alfalah\RTGS\obj\Debug\RTGS.pdb
-D:\Work\RTGS\alfalh\RTGS\bin\RTGS.dll.config
-D:\Work\RTGS\alfalh\RTGS\bin\RTGS.dll
-D:\Work\RTGS\alfalh\RTGS\bin\RTGS.pdb
-D:\Work\RTGS\alfalh\RTGS\bin\Antlr3.Runtime.dll
-D:\Work\RTGS\alfalh\RTGS\bin\AspNet.ScriptManager.bootstrap.dll
-D:\Work\RTGS\alfalh\RTGS\bin\AspNet.ScriptManager.jQuery.dll
-D:\Work\RTGS\alfalh\RTGS\bin\Microsoft.AspNet.FriendlyUrls.dll
-D:\Work\RTGS\alfalh\RTGS\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
-D:\Work\RTGS\alfalh\RTGS\bin\Microsoft.ScriptManager.MSAjax.dll
-D:\Work\RTGS\alfalh\RTGS\bin\Microsoft.ScriptManager.WebForms.dll
-D:\Work\RTGS\alfalh\RTGS\bin\Microsoft.Web.Infrastructure.dll
-D:\Work\RTGS\alfalh\RTGS\bin\System.Web.Optimization.dll
-D:\Work\RTGS\alfalh\RTGS\bin\WebGrease.dll
-D:\Work\RTGS\alfalh\RTGS\bin\Newtonsoft.Json.dll
-D:\Work\RTGS\alfalh\RTGS\bin\System.Web.Optimization.xml
-D:\Work\RTGS\alfalh\RTGS\bin\Antlr3.Runtime.pdb
-D:\Work\RTGS\alfalh\RTGS\bin\Microsoft.AspNet.FriendlyUrls.xml
-D:\Work\RTGS\alfalh\RTGS\bin\Newtonsoft.Json.xml
-D:\Work\RTGS\alfalh\RTGS\obj\Debug\RTGS.csprojResolveAssemblyReference.cache
-D:\Work\RTGS\alfalh\RTGS\obj\Debug\RTGS.dll
-D:\Work\RTGS\alfalh\RTGS\obj\Debug\RTGS.pdb

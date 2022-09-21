@@ -18,6 +18,8 @@ namespace RTGS.Forms
             }
             if (!IsPostBack)
             {
+                ReqtxtForBillNumber.Visible = ReqtxtForLCNumber.Visible = ReqtxtForPartyName.Visible = ReqtxtForBranchID.Visible = ReqtxtForOthersInformation.Visible = false;
+
                 TransCodeDB tr = new TransCodeDB();
                 ddlCtgyPurpPrtry.DataSource = tr.GetTransCode("Pacs09");
                 ddlCtgyPurpPrtry.DataBind();
@@ -85,6 +87,7 @@ namespace RTGS.Forms
             txtInstrInf.Text = pacs.InstrInf;
             if (lblSettlementCurrency.Text != "BDT")
             {
+                ReqtxtForBillNumber.Visible = ReqtxtForLCNumber.Visible = ReqtxtForPartyName.Visible = ReqtxtForBranchID.Visible = ReqtxtForOthersInformation.Visible = true;
                 txtInstrInfBillNumber.Text = pacs.InstrInfBillNumber;
                 txtInstrInfLCNumber.Text = pacs.InstrInfLCNumber;
                 txtInstrInfPartyName.Text = pacs.InstrInfPartyName;
@@ -98,6 +101,14 @@ namespace RTGS.Forms
         }
         protected void btnSend_Click(object sender, EventArgs e)
         {
+            if (lblSettlementCurrency.Text != "BDT")
+            {
+                if(txtInstrInfBillNumber.Text == "" || txtInstrInfLCNumber.Text == "" || txtInstrInfPartyName.Text == "" || txtInstrInfBranchID.Text == "" || txtInstrInfOthersInformation.Text == "")
+                {
+                    lblMsg.Text = "Bill No., LC No., Party Name, Branch ID or Others Info cannot be empty for FC Transaction.";
+                    return;
+                }
+            }
             RTGSImporter.TeamBlueDB db = new RTGSImporter.TeamBlueDB();
             RTGSImporter.Pacs009 pacs = new RTGSImporter.Pacs009();
 

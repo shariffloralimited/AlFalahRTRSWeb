@@ -591,30 +591,35 @@
                                                     <td>Bill Number(FCY)</td>
                                                     <td>
                                                         <asp:TextBox runat="server" ID="txtInstrInfBillNumber" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                        <asp:RequiredFieldValidator ID="ReqtxtForBillNumber" runat="server" ControlToValidate="txtInstrInfBillNumber" CssClass="normal-red" ErrorMessage="*"></asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>LC Number(FCY)</td>
                                                     <td>
                                                         <asp:TextBox runat="server" ID="txtInstrInfLCNumber" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                        <asp:RequiredFieldValidator ID="ReqtxtForLCNumber" runat="server" ControlToValidate="txtInstrInfLCNumber" CssClass="normal-red" ErrorMessage="*"></asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>Party Name(FCY)</td>
                                                     <td>
                                                         <asp:TextBox runat="server" ID="txtInstrInfPartyName" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                        <asp:RequiredFieldValidator ID="ReqtxtForPartyName" runat="server" ControlToValidate="txtInstrInfPartyName" CssClass="normal-red" ErrorMessage="*"></asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>Branch ID(FCY)</td>
                                                     <td>
                                                         <asp:TextBox runat="server" ID="txtInstrInfBranchID" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                        <asp:RequiredFieldValidator ID="ReqtxtForBranchID" runat="server" ControlToValidate="txtInstrInfBranchID" CssClass="normal-red" ErrorMessage="*"></asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>Others Information(FCY)</td>
                                                     <td>
                                                         <asp:TextBox runat="server" ID="txtInstrInfOthersInformation" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                        <asp:RequiredFieldValidator ID="ReqtxtForOthersInformation" runat="server" ControlToValidate="txtInstrInfOthersInformation" CssClass="normal-red" ErrorMessage="*"></asp:RequiredFieldValidator>
                                                     </td>
                                                 </tr>
                                             </table>
