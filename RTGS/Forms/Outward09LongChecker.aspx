@@ -587,6 +587,37 @@
                                                         <asp:Label runat="server" ID="lblInstrInf" placeholder="Max140Text" CssClass="form-control-small" />
                                                     </td>
                                                 </tr>
+                                                
+                                                <tr>
+                                                    <td>Bill Number(FCY)</td>
+                                                    <td>
+                                                        <asp:Label runat="server" ID="lblInstrInfBillNumber" placeholder="Max35Text" CssClass="form-control-small" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>LC Number(FCY)</td>
+                                                    <td>
+                                                        <asp:Label runat="server" ID="lblInstrInfLcNumber" placeholder="Max35Text" CssClass="form-control-small" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Party Name(FCY)</td>
+                                                    <td>
+                                                        <asp:Label runat="server" ID="lblInstrInfPartyName" placeholder="Max35Text" CssClass="form-control-small" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Branch ID(FCY)</td>
+                                                    <td>
+                                                        <asp:Label runat="server" ID="lblInstrInfBranchID" placeholder="Max35Text" CssClass="form-control-small" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Others Information(FCY)</td>
+                                                    <td>
+                                                        <asp:Label runat="server" ID="lblInstrInfOthersInfo" placeholder="Max35Text" CssClass="form-control-small" />
+                                                    </td>
+                                                </tr>
                                             </table>
                                         </div>
                                     </div>

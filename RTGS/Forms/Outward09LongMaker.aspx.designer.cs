@@ -418,6 +418,51 @@ namespace RTGS.Forms {
         protected global::System.Web.UI.WebControls.TextBox txtInstrInf;
         
         /// <summary>
+        /// txtInstrInfBillNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfBillNumber;
+        
+        /// <summary>
+        /// txtInstrInfLCNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfLCNumber;
+        
+        /// <summary>
+        /// txtInstrInfPartyName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfPartyName;
+        
+        /// <summary>
+        /// txtInstrInfBranchID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfBranchID;
+        
+        /// <summary>
+        /// txtInstrInfOthersInformation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfOthersInformation;
+        
+        /// <summary>
         /// LblReturnReason control.
         /// </summary>
         /// <remarks>

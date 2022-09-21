@@ -34,6 +34,11 @@ namespace RTGS.Forms
             {
                 Banks();
                 BindBranches(ddListReceivingBank.SelectedValue);
+                ReqtxtForBillNumber.Visible = false;
+                ReqtxtForLCNumber.Visible = false;
+                ReqtxtForPartyName.Visible = false;
+                ReqtxtForBranchID.Visible = false;
+                ReqtxtForOthersInformation.Visible = false;
             }
             lblMsg.Text = "";
         }
@@ -62,6 +67,12 @@ namespace RTGS.Forms
 
             txtReceiverAccountNo.Text = pacs.DbtrAcctId;
             txtReasonForPayment.Text = pacs.InstrInf;
+
+            txtInstrInfBillNumber.Text = pacs.InstrInfBillNumber;
+            txtInstrInfLCNumber.Text = pacs.InstrInfLCNumber;
+            txtInstrInfPartyName.Text = pacs.InstrInfPartyName;
+            txtInstrInfBranchID.Text = pacs.InstrInfBranchID;
+            txtInstrInfOthersInformation.Text = pacs.InstrInfOthersInformation;
 
             ddlCurrency.Enabled = false;
             txtSettlmentAmount.Enabled = false;
@@ -163,6 +174,16 @@ namespace RTGS.Forms
             pacs.CdtrAcctTp = "1";
 
             pacs.InstrInf = txtReasonForPayment.Text;
+
+            if (ddlCurrency.SelectedItem.Text != "BDT")
+            {
+                pacs.InstrInfBillNumber = txtInstrInfBillNumber.Text;
+                pacs.InstrInfLCNumber = txtInstrInfLCNumber.Text;
+                pacs.InstrInfPartyName = txtInstrInfPartyName.Text;
+                pacs.InstrInfBranchID = txtInstrInfBranchID.Text;
+                pacs.InstrInfOthersInformation = txtInstrInfOthersInformation.Text;
+            }
+
             pacs.PmntRsn = InwardID;
             pacs.DeptId = Int32.Parse(Request.Cookies["DeptID"].Value);
             pacs.Maker = Request.Cookies["UserName"].Value;
@@ -274,6 +295,11 @@ namespace RTGS.Forms
         }
         protected void ddlCurrency_SelectedIndexChanged(object sender, EventArgs e)
         {
+            ReqtxtForOthersInformation.Visible = ReqtxtForBranchID.Visible = ReqtxtForPartyName.Visible = ReqtxtForLCNumber.Visible = ReqtxtForBillNumber.Visible = true;
+            if (ddlCurrency.SelectedItem.Text == "BDT")
+            {
+                ReqtxtForOthersInformation.Visible = ReqtxtForBranchID.Visible = ReqtxtForPartyName.Visible = ReqtxtForLCNumber.Visible = ReqtxtForBillNumber.Visible = false;
+            }
         }
 
         protected void ddListReceivingBank_SelectedIndexChanged(object sender, EventArgs e)

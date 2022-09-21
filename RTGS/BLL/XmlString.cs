@@ -588,6 +588,36 @@ namespace RTGSImporter
                 sb.Append("<InstrInf>" + pacs.InstrInf + "</InstrInf>");
                 sb.Append("</InstrForNxtAgt>");
             }
+            if (pacs.InstrInfBillNumber != "")
+            {
+                sb.Append("<InstrForNxtAgt>");
+                sb.Append("<InstrInf>" + pacs.InstrInfBillNumber + "</InstrInf>");
+                sb.Append("</InstrForNxtAgt>");
+            }
+            if (pacs.InstrInfLCNumber != "")
+            {
+                sb.Append("<InstrForNxtAgt>");
+                sb.Append("<InstrInf>" + pacs.InstrInfLCNumber + "</InstrInf>");
+                sb.Append("</InstrForNxtAgt>");
+            }
+            if (pacs.InstrInfPartyName != "")
+            {
+                sb.Append("<InstrForNxtAgt>");
+                sb.Append("<InstrInf>" + pacs.InstrInfPartyName + "</InstrInf>");
+                sb.Append("</InstrForNxtAgt>");
+            }
+            if (pacs.InstrInfBranchID != "")
+            {
+                sb.Append("<InstrForNxtAgt>");
+                sb.Append("<InstrInf>" + pacs.InstrInfBranchID + "</InstrInf>");
+                sb.Append("</InstrForNxtAgt>");
+            }
+            if (pacs.InstrInfOthersInformation != "")
+            {
+                sb.Append("<InstrForNxtAgt>");
+                sb.Append("<InstrInf>" + pacs.InstrInfOthersInformation + "</InstrInf>");
+                sb.Append("</InstrForNxtAgt>");
+            }
             #endregion
 
             sb.Append("</CdtTrfTxInf>");

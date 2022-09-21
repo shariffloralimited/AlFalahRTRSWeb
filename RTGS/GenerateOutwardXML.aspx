@@ -72,7 +72,7 @@
                             <asp:Button Text="Generate MX" ID="btnGenerate" CssClass="btn btn-success" runat="server" OnClick="btnGenerate_Click" />
                         </div>
                         <asp:Label ID="Msg" runat="server" Style="color: red; font-weight: bold" />
-                        <div style="float: left; margin-top: 20px; margin-left: 50px">
+                        <div style="float: left; margin-top: 20px; margin-left: 50px; display: none">
                             <asp:Button Text="Generate MT" ID="btnMT" CssClass="btn btn-success" runat="server" OnClick="btnMT_Click" />
                         </div>
                         <%--<div style="float:left; margin-top:20px;margin-left:50px">

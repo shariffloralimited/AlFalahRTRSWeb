@@ -83,6 +83,14 @@ namespace RTGS.Forms
             lblCdtrAcctId.Text = pacs.CdtrAcctId;
             txtCdtrAcctTp.Text = pacs.CdtrAcctTp;
             txtInstrInf.Text = pacs.InstrInf;
+            if (lblSettlementCurrency.Text != "BDT")
+            {
+                txtInstrInfBillNumber.Text = pacs.InstrInfBillNumber;
+                txtInstrInfLCNumber.Text = pacs.InstrInfLCNumber;
+                txtInstrInfPartyName.Text = pacs.InstrInfPartyName;
+                txtInstrInfBranchID.Text = pacs.InstrInfBranchID;
+                txtInstrInfOthersInformation.Text = pacs.InstrInfOthersInformation;
+            }
             //txtPmntRsn.Text = pacs.PmntRsn;
             LblReturnReason.Text = pacs.ReturnReason;
             ChkNoCBS.Checked = pacs.NoCBS;
@@ -147,7 +155,14 @@ namespace RTGS.Forms
             pacs.CdtrAcctTp = txtCdtrAcctTp.Text;
 
             pacs.InstrInf = txtInstrInf.Text;
-
+            if (lblSettlementCurrency.Text != "BDT")
+            {
+                pacs.InstrInfBillNumber = txtInstrInfBillNumber.Text;
+                pacs.InstrInfLCNumber = txtInstrInfLCNumber.Text;
+                pacs.InstrInfPartyName = txtInstrInfPartyName.Text;
+                pacs.InstrInfBranchID = txtInstrInfBranchID.Text;
+                pacs.InstrInfOthersInformation = txtInstrInfOthersInformation.Text;
+            }
             pacs.PmntRsn = lblMsg.Text;
            
 

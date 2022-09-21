@@ -1,0 +1,58 @@
+D:\Projects\FloraRTGSImporter\FloraRTGSImporter\bin\Debug\FloraRTGSImporter.exe
+D:\Projects\FloraRTGSImporter\FloraRTGSImporter\bin\Debug\FloraRTGSImporter.pdb
+D:\Projects\FloraRTGSImporter\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.ProjectInstaller.resources
+D:\Projects\FloraRTGSImporter\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csproj.GenerateResource.Cache
+D:\Projects\FloraRTGSImporter\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.exe
+D:\Projects\FloraRTGSImporter\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.pdb
+D:\Projects\FloraRTGSImporter\FloraRTGSImporter\bin\Debug\FloraRTGSImporter.exe.config
+D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe.config
+D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe
+D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.pdb
+D:\FloraBP\RTGSImporter.exe.config
+D:\FloraBP\RTGSImporter.exe
+D:\FloraBP\RTGSImporter.pdb
+D:\FloraBP\New\RTGSImporter.exe.config
+D:\FloraBP\ALLNEW\RTGSImporter.exe.config
+D:\FloraBP\ALLNEW\RTGSImporter.exe
+D:\FloraBP\ALLNEW\RTGSImporter.pdb
+D:\Projects\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csprojResolveAssemblyReference.cache
+D:\Projects\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.ProjectInstaller.resources
+D:\Projects\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csproj.GenerateResource.Cache
+D:\Projects\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
+D:\Projects\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb
+E:\FINAL PROJETS FOR BANK\RTGS\HSBC\Projects\23082017\FloraBP\ALLNEW\RTGSImporter.exe.config
+E:\FINAL PROJETS FOR BANK\RTGS\HSBC\Projects\23082017\23082017\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
+E:\FINAL PROJETS FOR BANK\RTGS\HSBC\Projects\23082017\23082017\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb
+F:\Projects\RTGS\HSBC\Projects\23082017\FloraBP\ALLNEW\RTGSImporter.exe.config
+F:\Projects\RTGS\HSBC\Projects\23082017\23082017\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
+F:\Projects\RTGS\HSBC\Projects\23082017\23082017\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb
+F:\Projects\RTGS\HSBC\Projects\23082017\FloraBP\ALLNEW\RTGSImporter.exe
+F:\Projects\RTGS\HSBC\Projects\23082017\FloraBP\ALLNEW\RTGSImporter.pdb
+F:\Projects\RTGS\HSBC\Projects\23082017\23082017\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csprojResolveAssemblyReference.cache
+F:\Projects\RTGS\HSBC\Projects\23082017\23082017\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.ProjectInstaller.resources
+F:\Projects\RTGS\HSBC\Projects\23082017\23082017\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csproj.GenerateResource.Cache
+F:\Projects\RTGS\FloraBP\ALLNEW\RTGSImporter.exe.config
+F:\Projects\RTGS\HSBC\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
+F:\Projects\RTGS\HSBC\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb
+F:\BANK SERVER BACK UP\RTGS\FloraBP\ALLNEW\RTGSImporter.exe.config
+F:\BANK SERVER BACK UP\RTGS\HSBC\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
+F:\BANK SERVER BACK UP\RTGS\HSBC\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb
+E:\RTGS\from office\New folder\FloraBP\ALLNEW\RTGSImporter.exe.config
+E:\RTGS\from office\New folder\HSBC\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
+E:\RTGS\from office\New folder\HSBC\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb
+E:\RTGS\from office\New folder\FloraBP\ALLNEW\RTGSImporter.exe
+E:\RTGS\from office\New folder\FloraBP\ALLNEW\RTGSImporter.pdb
+E:\RTGS\from office\New folder\HSBC\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.ProjectInstaller.resources
+E:\RTGS\from office\New folder\HSBC\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csproj.GenerateResource.Cache
+E:\RTGS\from office\New folder\HSBC\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csprojResolveAssemblyReference.cache
+E:\RTGS\from office\New folder\Padma\FloraBP\ALLNEW\RTGSImporter.exe.config
+E:\RTGS\from office\New folder\Padma\Update\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
+E:\RTGS\from office\New folder\Padma\Update\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb
+E:\RTGS\from office\New folder\Padma\FloraBP\ALLNEW\RTGSImporter.exe
+E:\RTGS\from office\New folder\Padma\FloraBP\ALLNEW\RTGSImporter.pdb
+E:\RTGS\from office\New folder\Padma\Update\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csprojResolveAssemblyReference.cache
+E:\RTGS\from office\New folder\Padma\Update\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.ProjectInstaller.resources
+E:\RTGS\from office\New folder\Padma\Update\FloraRTGSImporter\obj\x86\Debug\FloraRTGSImporter.csproj.GenerateResource.Cache
+D:\Work\RTGS\FloraBP\ALLNEW\RTGSImporter.exe.config
+D:\Work\RTGS\alfalh\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.exe
+D:\Work\RTGS\alfalh\FloraRTGSImporter\obj\x86\Debug\RTGSImporter.pdb

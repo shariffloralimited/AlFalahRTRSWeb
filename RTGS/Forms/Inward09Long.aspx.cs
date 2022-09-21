@@ -71,6 +71,13 @@ namespace RTGS.Forms
             lblCdtrAcctId.Text = pacs.CdtrAcctId;
             lblCdtrAcctTp.Text = pacs.CdtrAcctTp;
             lblInstrInf.Text = pacs.InstrInf;
+            
+            lblInstrInfBillNumber.Text = pacs.InstrInfBillNumber;
+            lblInstrInfLcNumber.Text = pacs.InstrInfLCNumber;
+            lblInstrInfPartyName.Text = pacs.InstrInfPartyName;
+            lblInstrInfBranchID.Text = pacs.InstrInfBranchID;
+            lblInstrInfOthersInfo.Text = pacs.InstrInfOthersInformation;
+
             lblPmntRsn.Text = pacs.PmntRsn;
 
             string RoleCD = Request.Cookies["RoleCD"].Value;

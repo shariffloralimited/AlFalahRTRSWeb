@@ -587,6 +587,36 @@
                                                         <asp:TextBox runat="server" ID="txtInstrInf" placeholder="Max140Text" Width="300" CssClass="form-control-small" MaxLength="140" />
                                                     </td>
                                                 </tr>
+                                                <tr>
+                                                    <td>Bill Number(FCY)</td>
+                                                    <td>
+                                                        <asp:TextBox runat="server" ID="txtInstrInfBillNumber" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>LC Number(FCY)</td>
+                                                    <td>
+                                                        <asp:TextBox runat="server" ID="txtInstrInfLCNumber" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Party Name(FCY)</td>
+                                                    <td>
+                                                        <asp:TextBox runat="server" ID="txtInstrInfPartyName" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Branch ID(FCY)</td>
+                                                    <td>
+                                                        <asp:TextBox runat="server" ID="txtInstrInfBranchID" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Others Information(FCY)</td>
+                                                    <td>
+                                                        <asp:TextBox runat="server" ID="txtInstrInfOthersInformation" placeholder="Max35Text" Width="300" CssClass="form-control-small" MaxLength="35" />
+                                                    </td>
+                                                </tr>
                                             </table>
                                         </div>
                                     </div>

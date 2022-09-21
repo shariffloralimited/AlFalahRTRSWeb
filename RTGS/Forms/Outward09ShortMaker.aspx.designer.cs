@@ -157,6 +157,96 @@ namespace RTGS.Forms {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqtxtReasonForPayment;
         
         /// <summary>
+        /// txtInstrInfBillNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfBillNumber;
+        
+        /// <summary>
+        /// ReqtxtForBillNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqtxtForBillNumber;
+        
+        /// <summary>
+        /// txtInstrInfLCNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfLCNumber;
+        
+        /// <summary>
+        /// ReqtxtForLCNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqtxtForLCNumber;
+        
+        /// <summary>
+        /// txtInstrInfPartyName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfPartyName;
+        
+        /// <summary>
+        /// ReqtxtForPartyName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqtxtForPartyName;
+        
+        /// <summary>
+        /// txtInstrInfBranchID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfBranchID;
+        
+        /// <summary>
+        /// ReqtxtForBranchID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqtxtForBranchID;
+        
+        /// <summary>
+        /// txtInstrInfOthersInformation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtInstrInfOthersInformation;
+        
+        /// <summary>
+        /// ReqtxtForOthersInformation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqtxtForOthersInformation;
+        
+        /// <summary>
         /// lblMsg control.
         /// </summary>
         /// <remarks>

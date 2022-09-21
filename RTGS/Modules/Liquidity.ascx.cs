@@ -65,7 +65,7 @@ namespace RTGS.modules
             lblSTP.Text = con.STP;
             lblBB.Text = con.BB;
             lblBBTM.Text = con.BBTM;
-            lblLIQ.Text = ccy + " " +con.LIQ.ToString("N2") + " (" + con.LQTM + " mins)";
+            lblLIQ.Text = ccy + " " + con.LIQ.ToString("N2") + " (" + con.LQTM + " mins)";
             if (con.BB != "OFF")
             {
                 lblBB.CssClass = "label label-success";
@@ -84,22 +84,26 @@ namespace RTGS.modules
             }
 
             ServiceController sc = new ServiceController("Flora RTGS Export Import Service");
-            if (sc.Status.ToString() != "Running")
+            #if !DEBUG
             {
-                LblImporter.CssClass = "label label-danger";
-                LblImporter.Text = "OFF";
+                if (sc.Status.ToString() != "Running")
+                {
+                    LblImporter.CssClass = "label label-danger";
+                    LblImporter.Text = "OFF";
 
-                lblSTP.CssClass = "label label-danger";
-                lblSTP.Text = "OFF";
+                    lblSTP.CssClass = "label label-danger";
+                    lblSTP.Text = "OFF";
+                }
+                else
+                {
+                    LblImporter.CssClass = "label label-success";
+                    LblImporter.Text = "ON";
+                }
             }
-            else
-            {
-                LblImporter.CssClass = "label label-success";
-                LblImporter.Text = "ON";
-            }
+
             sc.Dispose();
             sc.Close();
-
+            #endif
             SetErrorFile();
         }
 
@@ -111,11 +115,11 @@ namespace RTGS.modules
 
     }
 
-// The following example demonstrates how to create 
-// a resource class that implements the IDisposable interface 
-// and the IDisposable.Dispose method. 
+    // The following example demonstrates how to create 
+    // a resource class that implements the IDisposable interface 
+    // and the IDisposable.Dispose method. 
 
-    public class MyResource: IDisposable
+    public class MyResource : IDisposable
     {
         // Pointer to an external unmanaged resource. 
         private IntPtr handle;
@@ -154,11 +158,11 @@ namespace RTGS.modules
         protected virtual void Dispose(bool disposing)
         {
             // Check to see if Dispose has already been called. 
-            if(!this.disposed)
+            if (!this.disposed)
             {
                 // If disposing equals true, dispose all managed 
                 // and unmanaged resources. 
-                if(disposing)
+                if (disposing)
                 {
                     // Dispose managed resources.
                     component.Dispose();

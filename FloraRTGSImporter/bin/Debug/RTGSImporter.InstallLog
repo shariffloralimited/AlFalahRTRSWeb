@@ -1,0 +1,55 @@
+﻿Installing assembly 'D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.InstallLog
+   assemblypath = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe
+Installing service Flora RTGS Importer...
+Service Flora RTGS Importer has been successfully installed.
+Creating EventLog source Flora RTGS Importer in log Application...
+Committing assembly 'D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.InstallLog
+   assemblypath = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe
+Uninstalling assembly 'D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.InstallLog
+   assemblypath = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe
+Removing EventLog source Flora RTGS Importer.
+Service Flora RTGS Importer is being removed from the system...
+Service Flora RTGS Importer was successfully removed from the system.
+Installing assembly 'D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.InstallLog
+   assemblypath = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe
+Installing service Flora RTGS Export Import Service...
+Service Flora RTGS Export Import Service has been successfully installed.
+Creating EventLog source Flora RTGS Export Import Service in log Application...
+Committing assembly 'D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.InstallLog
+   assemblypath = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe
+Uninstalling assembly 'D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.InstallLog
+   assemblypath = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe
+Removing EventLog source Flora RTGS Export Import Service.
+Service Flora RTGS Export Import Service is being removed from the system...
+Service Flora RTGS Export Import Service was successfully removed from the system.
+Installing assembly 'D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.InstallLog
+   assemblypath = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe
+Installing service Flora RTGS Export Import Service...
+Service Flora RTGS Export Import Service has been successfully installed.
+Creating EventLog source Flora RTGS Export Import Service in log Application...
+Committing assembly 'D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.InstallLog
+   assemblypath = D:\Projects\FloraRTGSImporter\bin\Debug\RTGSImporter.exe

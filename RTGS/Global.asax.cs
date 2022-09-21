@@ -26,7 +26,7 @@ namespace RTGS
                 string windir = Environment.GetEnvironmentVariable("windir");
                 if (!Directory.Exists(windir + "\\Microsoft.NET\\Framework64\\v1.0"))
                 {
-                    cancontinue = false;
+                    cancontinue = true; // false
                 }
                 else
                 {
