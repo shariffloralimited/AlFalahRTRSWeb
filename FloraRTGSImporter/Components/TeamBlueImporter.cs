@@ -131,6 +131,11 @@ namespace RTGSImporter
             pacs.CdtrAcctId = "";
             pacs.CdtrAcctTp = "";
             pacs.InstrInf = "";
+            pacs.InstrInfBillNumber = "";
+            pacs.InstrInfLCNumber = "";
+            pacs.InstrInfPartyName = "";
+            pacs.InstrInfBranchID = "";
+            pacs.InstrInfOthersInformation = "";
 
             //--------------------------------------
             if (doc.GetElementsByTagName("LclInstrm").Count > 0)
@@ -357,6 +362,15 @@ namespace RTGSImporter
             if (doc.GetElementsByTagName("InstrInf").Count > 0)
             {
                 pacs.InstrInf = doc.GetElementsByTagName("InstrInf").Item(0).InnerText;
+
+                if (pacs.IntrBkSttlmCcy != "BDT" && doc.GetElementsByTagName("InstrInf").Count >= 6)
+                {
+                    pacs.InstrInfBillNumber = doc.GetElementsByTagName("InstrInf").Item(1).InnerText;
+                    pacs.InstrInfLCNumber = doc.GetElementsByTagName("InstrInf").Item(2).InnerText;
+                    pacs.InstrInfPartyName = doc.GetElementsByTagName("InstrInf").Item(3).InnerText;
+                    pacs.InstrInfBranchID = doc.GetElementsByTagName("InstrInf").Item(4).InnerText;
+                    pacs.InstrInfOthersInformation = doc.GetElementsByTagName("InstrInf").Item(5).InnerText;
+                }
             }
 
             return pacs;

@@ -1,0 +1,27 @@
+ALTER TABLE  [RTGS15].[dbo].[Outward09] 
+ADD [InstrInfBillNo] VARCHAR(35),
+[InstrInfLcNo] VARCHAR(35),
+[InstrInfPartyName] VARCHAR(35),
+[InstrInfBranchID] VARCHAR(35),
+[InstrInfOtherInfo] VARCHAR(35);
+
+ALTER TABLE  [RTGSAudit15].[dbo].[Outward09] 
+ADD [InstrInfBillNo] VARCHAR(35),
+[InstrInfLcNo] VARCHAR(35),
+[InstrInfPartyName] VARCHAR(35),
+[InstrInfBranchID] VARCHAR(35),
+[InstrInfOtherInfo] VARCHAR(35);
+
+ALTER TABLE [RTGSD].[dbo].[Outward09] 
+ADD [InstrInfBillNo] VARCHAR(35),
+[InstrInfLcNo] VARCHAR(35),
+[InstrInfPartyName] VARCHAR(35),
+[InstrInfBranchID] VARCHAR(35),
+[InstrInfOtherInfo] VARCHAR(35);
+
+ALTER TABLE [RTGS15].[dbo].[Inward09] 
+ADD [InstrInfBillNo] VARCHAR(35),
+[InstrInfLcNo] VARCHAR(35),
+[InstrInfPartyName] VARCHAR(35),
+[InstrInfBranchID] VARCHAR(35),
+[InstrInfOtherInfo] VARCHAR(35);

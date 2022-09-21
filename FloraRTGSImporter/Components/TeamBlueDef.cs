@@ -62,6 +62,11 @@ namespace RTGSImporter
             public string CdtrAcctTp = "";
 
             public string InstrInf = "";
+            public string InstrInfBillNumber = "";
+            public string InstrInfLCNumber = "";
+            public string InstrInfPartyName = "";
+            public string InstrInfBranchID = "";
+            public string InstrInfOthersInformation = "";
             public string PmntRsn = "";
 
             public string Maker = "";

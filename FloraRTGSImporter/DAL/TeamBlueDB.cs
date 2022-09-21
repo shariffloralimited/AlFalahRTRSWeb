@@ -204,6 +204,26 @@ namespace RTGSImporter
             parameterInstrInf.Value = pacs.InstrInf;
             myCommand.Parameters.Add(parameterInstrInf);
 
+            SqlParameter parameterInstrInfBillNo = new SqlParameter("@InstrInfBillNo", SqlDbType.VarChar, 140);
+            parameterInstrInfBillNo.Value = pacs.InstrInfBillNumber;
+            myCommand.Parameters.Add(parameterInstrInfBillNo);
+
+            SqlParameter parameterInstrInfLcNo = new SqlParameter("@InstrInfLcNo", SqlDbType.VarChar, 140);
+            parameterInstrInfLcNo.Value = pacs.InstrInfLCNumber;
+            myCommand.Parameters.Add(parameterInstrInfLcNo);
+
+            SqlParameter parameterInstrInfPartyName = new SqlParameter("@InstrInfPartyName", SqlDbType.VarChar, 140);
+            parameterInstrInfPartyName.Value = pacs.InstrInfPartyName;
+            myCommand.Parameters.Add(parameterInstrInfPartyName);
+
+            SqlParameter parameterInstrInfBranchID = new SqlParameter("@InstrInfBranchID", SqlDbType.VarChar, 140);
+            parameterInstrInfBranchID.Value = pacs.InstrInfBranchID;
+            myCommand.Parameters.Add(parameterInstrInfBranchID);
+
+            SqlParameter parameterInstrInfOthersInfo = new SqlParameter("@InstrInfOthersInfo", SqlDbType.VarChar, 140);
+            parameterInstrInfOthersInfo.Value = pacs.InstrInfOthersInformation;
+            myCommand.Parameters.Add(parameterInstrInfOthersInfo);
+
             SqlParameter parameterPmntRsn = new SqlParameter("@PmntRsn", SqlDbType.VarChar, 140);
             parameterPmntRsn.Value = pacs.PmntRsn;
             myCommand.Parameters.Add(parameterPmntRsn);
@@ -746,6 +766,13 @@ namespace RTGSImporter
                 pacs.CdtrAcctTp = (string)dr["CdtrAcctTp"];
 
                 pacs.InstrInf = (string)dr["InstrInf"];
+
+                pacs.InstrInfBillNumber = (string)dr["InstrInfBillNo"];
+                pacs.InstrInfLCNumber = (string)dr["InstrInfLcNo"];
+                pacs.InstrInfPartyName = (string)dr["InstrInfPartyName"];
+                pacs.InstrInfBranchID = (string)dr["InstrInfBranchID"];
+                pacs.InstrInfOthersInformation = (string)dr["InstrInfOtherInfo"];
+
                 pacs.PmntRsn = (string)dr["PmntRsn"];
 
                 pacs.Maker = (string)dr["Maker"];
